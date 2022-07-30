@@ -2,6 +2,8 @@
 OPT3101 library for STM32
 # Usage
 ```c
+#include "opt3101.h"
+
 static opt3101_dev opt3101;
 static uint8_t opt3101_addr = OPT3101_CHIP_ADDR;
 
